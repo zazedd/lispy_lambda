@@ -1,3 +1,8 @@
+(menhir
+  (modules parser))
+
+(ocamllex lexer)
+
 (executable
  (public_name lispy_lambda)
  (name main)

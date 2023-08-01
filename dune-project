@@ -7,9 +7,11 @@
 (source
  (github username/reponame))
 
-(authors "Author Name")
+(authors "Francisco Santos" "Leonardo Santos")
 
 (maintainers "Maintainer Name")
+
+(using menhir 2.1)
 
 (license LICENSE)
 
